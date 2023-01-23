@@ -1,40 +1,60 @@
-*{
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
   padding: 0;
-  margin:0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
 }
-body{
-  font-family: Satoshi;
-}
-label.logo{
+
+header {
+  background-color: #4CAF50;
   color: white;
-  font-size: 35px;
-  line-height: 80px;
-  padding: 0 100px;
-  font-weight: bold;
+  text-align: center;
+  padding: 1em;
 }
-nav{
-  background: #1E1E1E;
-  height: 80px;
-  width: 100%;
+
+nav {
+  background-color: #f1f1f1;
+  padding: 1em;
+  display: flex;
+  justify-content: flex-end;
 }
-nav ul{
-  float: right;
-  margin-right: 20px;
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-nav ul li{
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
+
+nav li {
+  display: inline;
+  margin-right: 1em;
 }
-nav ul li a{
-  color: white;
-  font-size: 17px;
-  padding: 7px 13px;
-  border-radius: 3px;
+
+main {
+  padding: 1em;
+}
+
+.image-container {
+  display: flex;
+  flex: auto;
+}
+
+.image-container img{
+  flex-basis: 10%;
+  max-width: 25%;
+  padding: 10px;
+}
+
+section {
+  margin-bottom: 1em;
+}
+
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 1em;
 }
