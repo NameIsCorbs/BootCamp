@@ -25,3 +25,23 @@
 .hoverMe:hover {
   background-color:blue;
 }
+
+.hoverMe1 {
+  grid-area: hover;
+  background-color: red;
+  color: white;
+}
+/* active state */
+.hoverMe:hover {
+  background-color:blue;
+}
+
+.hoverMe2 {
+  grid-area: hover;
+  background-color: red;
+  color: white;
+}
+/* active state */
+.hoverMe:hover {
+  background-color:blue;
+}

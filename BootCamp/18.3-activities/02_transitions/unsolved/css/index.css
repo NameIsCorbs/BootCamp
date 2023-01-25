@@ -14,16 +14,62 @@
 }
 .hoverMe {
   grid-area: hover;
-  background-color: red;
+  background-color: black;
   color: white;
   width: 150px;
   text-align: center;
   height: 50px;
   /* Add the css property transition here! */
-
+transition: .3s;
 }
-/* active state */
-.hoverMe:hover {
-  /* Add your hover state css here. */
 
+/* active state */
+.hoverMe:hover { 
+  background-color: blanchedalmond;
+  border: 2px;
+  border-color: white;
+  font-size: bold;
+  font: satoshi;
+  color: black;
+}
+.hoverMe2 {
+  grid-area: hover;
+  background-color: black;
+  color: white;
+  width: 150px;
+  text-align: center;
+  height: 50px;
+  /* Add the css property transition here! */
+transition: .3s;
+}
+
+/* active state */
+.hoverMe2:hover { 
+  background-color: blanchedalmond;
+  border: 2px;
+  border-color: white;
+  font-size: bold;
+  font: satoshi;
+  color: black;
+}
+
+.hoverMe {
+  grid-area: hover;
+  background-color: black;
+  color: white;
+  width: 150px;
+  text-align: center;
+  height: 50px;
+  /* Add the css property transition here! */
+transition: .3s;
+}
+
+/* active state */
+.hoverMe:hover { 
+  background-color: blanchedalmond;
+  border: 2px;
+  border-color: white;
+  font-size: bold;
+  font: satoshi;
+  color: black;
 }

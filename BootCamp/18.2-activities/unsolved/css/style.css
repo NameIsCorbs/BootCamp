@@ -3,13 +3,116 @@ body {
 }
 
 /* Grid CSS */
+#heroGrid {
+margin: 0px 5%;
+display: grid;
+min-height: 500px;
+height: 70vh;
+grid-template-rows: 75% 25%;
+grid-template-columns: 75% 25%;
+grid-template-areas:
+"featuredProduct secondaryProduct"
+"featuredProduct CTA";
+}
 
+#featuredProduct{
+  grid-area: featuredProduct;
+  background-image: url(/BootCamp/BootCamp/18.2-activities/unsolved/images/furniture1.png)
+  }
+  
+  #secondaryProduct{
+    grid-area: secondaryProduct;
+    background-image: url(/BootCamp/BootCamp/18.2-activities/unsolved/images/furniture2.png);
+    }
+  
+  #CTA{
+  grid-area: CTA;
+  background-image: url(/BootCamp/BootCamp/18.2-activities/unsolved/images/woodbg.png);
+  justify-content: 0px 100%;
+  cursor: pointer;
+}
+
+#headline{
+  background-color: rgba(255,255,255,0.8);
+  border: 5px solid #ff6200;
+  position: absolute;
+  right: -50px;
+  top: 100px;
+  padding: 25px;
+  max-width: 550px;
+  z-index: 100;
+}
+.heroGridArea {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
 
 /* Category Grid CSS */
+.subHeading{
+  text-align: center;
+  border-bottom: 2px solid black;
+  width: 300px;
+  margin: 50px auto;
+}
 
+#categoryGrid{
+  margin: 0px;
+  display: grid;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "bookcases bedroom patio"
+  "couches couches patio"
+  "desks desks desks"
+}
 
+#bookcases{
+  grid-area: bookcases;
+  background-image: url(/BootCamp/BootCamp/18.2-activities/unsolved/images/bookcases.png);
+}
 
+#bedroom {
+  grid-area: bedroom;
+  background-image: url(/BootCamp/BootCamp/18.2-activities/unsolved/images/beds.png);
+}
 
+#couches {
+  grid-area: couches;
+  background-image: url(/BootCamp/BootCamp/18.2-activities/unsolved/images/couch.png);
+}
+
+#patio {
+  grid-area: patio;
+  background-image: url(/BootCamp/BootCamp/18.2-activities/unsolved/images/patio.png);
+}
+
+#desks {
+  grid-area: desks;
+  background-image: url(/BootCamp/BootCamp/18.2-activities/unsolved/images/desks.png);
+}
+
+.categoryGridArea{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+
+.heading{
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  height: 25px;
+  color: white;
+  font-size: 18px;
+  border-bottom: 5px solid #ff6200;
+}
 /* Navigation CSS */
 /* CHECK OUT THIS CODE BELOW IF YOU WANT TO GET A REFRESHER ON FLEX */
 #navBar {
@@ -73,4 +176,35 @@ h4 {
   font-weight: 300;
   margin: 0px 0px;
   color: #636364;
+}
+
+@media only screen and (max-width: 1000px) {
+  .navigation{
+    display: none;
+}
+  .icons{
+    margin-left: auto;
+}
+  }
+
+@media only screen and (max-width: 600px) {
+  #headline{
+    position: static;
+    margin: 20px;
+  }
+  #heroGrid{
+    grid-template-areas:
+    "featuredProduct featuredProduct"
+    "secondaryProduct CTA";
+  }
+  #categoryGrid{
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "bookcases"
+    "bedroom"
+    "patio"
+    "couches"
+    "desks";
+  }
 }
