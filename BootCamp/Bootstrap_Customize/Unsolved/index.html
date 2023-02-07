@@ -15,30 +15,33 @@
   <body>
 
     <!-- Navigation bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar customNav navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><img src="/BootCamp/BootCamp/Bootstrap_Customize/Unsolved/images/acoustic-guitar.png">Roc Nation</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Venues<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Artist</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
-              Dropdown
+              Near You
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Venues</a>
+              <a class="dropdown-item" href="#">Artists</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">Upcoming Acts</a>
             </div>
+            <li class="nav-item">
+              <a class="btn btn-primary btn-lg navCTA" href="#" role="button">Buy Tickets</a>
+            </li>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -51,51 +54,54 @@
 
     <!-- Jumbotron -->
     <div class="jumbotron">
-      <h1 class="display-4">Hello, world!</h1>
-      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+      <div class="jumboCopy">
+      <h1 class="display-4">Hello, Roc Nation!</h1>
+      <p class="lead">Hire Me PloX</p>
       <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      <p>Am i the only one that just looks for the "unfortunately" part in the email to know if you got the job? </p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Hire Me Fam</a>
+    </div>
     </div>
     <!-- End jumbotron -->
 
     <!-- Cards -->
-    <div class="container-fluid">
-      <div class="row">
+    <div class="container-fluid content">
+      <h2 class = "sectionHeading">Shows Near You</h2>
+      <div class="row showsNear">
         <!-- Card 1 -->
-        <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
           <div class="card">
-            <img src="images/1_card.png" class="card-img-top" alt="...">
+            <img src="/BootCamp/BootCamp/Bootstrap_Customize/Unsolved/images/show1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Sick</h5>
+              <p class="card-text">Tame Impala if he was a bass player</p>
+              <a href="#" class="btn btn-primary">DONT PICK ME</a>
             </div>
           </div>
         </div>
         <!-- End card 1 -->
 
         <!-- Card 2 -->
-        <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
           <div class="card">
-            <img src="images/2_card.png" class="card-img-top" alt="...">
+            <img src="/BootCamp/BootCamp/Bootstrap_Customize/Unsolved/images/show2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Super Sick</h5>
+              <p class="card-text">I CANT HEAR YOUUUU</p>
+              <a href="#" class="btn btn-primary">PICK ME</a>
             </div>
           </div>
         </div>
         <!-- End card 2 -->
 
         <!-- Card 3 -->
-        <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
           <div class="card">
-            <img src="images/3_card.png" class="card-img-top" alt="...">
+            <img src="/BootCamp/BootCamp/Bootstrap_Customize/Unsolved/images/show3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Freaking Radical</h5>
+              <p class="card-text">Too many peoples, not enough bathrooms</p>
+              <a href="#" class="btn btn-primary">NO PICK ME</a>
             </div>
           </div>
         </div>
@@ -106,38 +112,73 @@
     <!-- End cards -->
 
     <!-- Content -->
-    <div class="container-fluid">
-
+    <div class="container-fluid content">
+      <h2 class="sectionHeading">It's giving better</h2>
       <!-- Row 1 -->
-      <div class="row">
+      <div class="row valueProp imageContainer">
         <div class="sideAccent">
         </div>
         <div class="col-3">
-          <img src="images/assistance.png">
+          <img src="/BootCamp/BootCamp/Bootstrap_Customize/Unsolved/images/refund.png">
         </div>
         <div class="col-8">
-          <h3>Title 1</h3>
+          <h3>Refund Please</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
+            I need a refund mucho bad
           </p>
-          <a href="#" class="btn btn-primary">Contact Us
+          <a href="#" class="btn btn-primary">Refund
           </a>
         </div>
       </div>
       <!-- End row 1 -->
-
+   <!-- Row 2 -->
+   <div class="row valueProp imageContainer">
+    <div class="sideAccent">
+    </div>
+    <div class="col-3">
+      <img src="/BootCamp/BootCamp/Bootstrap_Customize/Unsolved/images/assistance.png">
+    </div>
+    <div class="col-8">
+      <h3>Assistance Please</h3>
+      <p>
+        I have no idea what I'm doing
+      </p>
+      <a href="#" class="btn btn-primary">Assistance
+      </a>
+    </div>
+  </div>
+  <!-- End row 2 -->
+     <!-- Row 3 -->
+     <div class="row valueProp imageContainer">
+      <div class="sideAccent">
+      </div>
+      <div class="col-3">
+        <img src="/BootCamp/BootCamp/Bootstrap_Customize/Unsolved/images/mail-box.png">
+      </div>
+      <div class="col-8">
+        <h3>YOU'VE GOT MAIL</h3>
+        <p>
+          Check ur mail good sir
+        </p>
+        <a href="#" class="btn btn-primary">Check UR MAIL
+        </a>
+      </div>
+    </div>
+    <!-- End row 3 -->
     </div>
     <!-- End content -->
 
     <!-- Footer -->
-    <footer>
+    <footer class="emailContain">
       <form>
+        <h3>Join Our Mailing List</h3>
         <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
             placeholder="Enter email">
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
+      
       </form>
     </footer>
     <!-- End footer -->
