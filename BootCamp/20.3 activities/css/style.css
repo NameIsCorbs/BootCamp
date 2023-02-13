@@ -5,7 +5,7 @@ body {
 
 
 #hero {
-    background-image: url("../images/hero.png");
+    background-image: url("/BootCamp/BootCamp/TravelCali/hero");
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -215,8 +215,6 @@ h4 {
 #subscribe .form-container {
     padding-top: 300px;
     padding-bottom: 300px;
-
-
 }
 
 #subscribe form {

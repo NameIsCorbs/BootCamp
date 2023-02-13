@@ -1,0 +1,136 @@
+nav {
+    background-color: #c47703;
+}
+
+nav .hamburger {
+width: 180px ;
+text-align: right;
+}
+
+
+#hero {
+    background-image: url(/BootCamp/BootCamp/TravelCali/images/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+}
+
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:60%;
+
+}
+
+.jumbotron p {
+    text-align: center;
+    color: black;
+
+}
+
+.jumbotron h1 {
+    color: black;
+    font-weight: 800;
+
+}
+
+
+.jumbotron h1 span {
+  
+    font-weight: 300;
+
+}
+
+.jumbotron .my-4 {
+    background-color: white;
+}
+
+#adventure {
+
+    margin-top: 25px;
+    margin-bottom: 200px;
+}
+
+#adventure h2 {
+ text-align:center;
+ font-size:38px;
+ margin-bottom:100px;
+
+}
+
+
+#adventure .adventure-card1 {
+background-image: url("/BootCamp/BootCamp/TravelCali/images/image\ 11.png");
+background-size: cover;
+height:565px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom:20px;
+}
+
+#adventure .adventure-card2 {
+    background-image: url("/BootCamp/BootCamp/TravelCali/images/image\ 10.png");
+    background-size: cover;
+    height:565px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:20px;
+    }
+
+    #adventure .adventure-card3 {
+        background-image: url("/BootCamp/BootCamp/TravelCali/images/image\ 19.png");
+        background-size: cover;
+        height:565px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom:20px;
+        }
+
+.adventure-card .card-items {
+    margin-left:40px;
+    margin-right:60px;
+    color:white;
+
+}
+
+ .btn-primary {
+    background-color:#ff9900;
+    border-color: #ff9900;
+    border-radius: 0;
+}
+
+.btn-primary:hover {
+    background-color:#c47703;
+    border-color: #c47703;
+}
+
+.adventure-card .card-items .card-icon {
+    width:75%;
+    display: flex;
+
+
+}
+
+#locations {
+    width: auto;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ h2 .yellow {
+    color:#ff9900;
+    font-size: 60%;
+    display: block;
+    font-weight:normal;
+}
+h4 {
+    color:white;
+}
